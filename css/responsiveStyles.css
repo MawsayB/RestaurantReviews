@@ -20,14 +20,7 @@
     #restaurants-list li {
         width: 90%;  
     }
-    /* #restaurants-list .restaurant-img {
-        text-align: center;
-    }
-    #restaurants-list p {
-        text-align: center;
-    } */
     #restaurants-list li a {
         margin-top: 15px;
-        margin-left: 25%;
     }
 }
