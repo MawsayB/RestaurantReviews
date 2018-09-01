@@ -1,6 +1,12 @@
 
 /* for phone */ 
 @media (max-width: 599px) {
+    nav h1 a {
+        font-size: 28px;
+    }
+    nav h1 {
+        padding-top: 3vw;
+      }
     .filter-options {
         height: 120px;
     }
@@ -22,6 +28,12 @@
     }
     #restaurants-list li a {
         margin-top: 15px;
+    }
+    #restaurant-container {
+        width: 100%;
+    }
+    body,td,th,p{
+        font-size: 14pt;
     }
 }
 
