@@ -25,9 +25,41 @@
     }
 }
 
-/* for tablet portrait view */
-@media (max-width: 900px) {
-
+/* for tablet landscape view */
+@media (min-width: 900px) {
+    nav h1 a {
+        font-size: 40px;
+    }
+    nav h1 {
+        padding-top: 1vw;
+      }
+    .filter-options {
+        height: 130px;
+    }
+    .filter-options h2 {
+        font-size: 25px;
+    }
+    .filter-options select {
+        font-size: 15pt;
+        margin-top: 5px;
+        width: 90%;
+        margin-left: 5vw;
+    }
+    #restaurants-list li {
+        width: 92vw;  
+    }
+    #restaurants-list li h1 {
+        font-size: 24px;
+    }
+    #restaurants-list p {
+        font-size: 18px;
+    }
+    #restaurants-list {
+        padding-top: 0;
+    }
+    #restaurants-list li a {
+        font-size: 18px;
+    }
 }
 
 /* for desktop */
