@@ -63,6 +63,27 @@
 }
 
 /* for desktop */
-@media (max-width: 1200px) {
-    
+@media (min-width: 1200px) {
+    .filter-options h2 {
+        font-size: 35px;
+        float: left;
+    }
+    .filter-options select {
+        width: 30vw;
+        height: 5vw;
+        padding: 0px 20px;
+    }
+    .filter-options {
+        height: 90px;
+        padding-top: 20px;
+    }
+    #restaurants-list li h1 {
+        font-size: 48px;
+    }
+    #restaurants-list p {
+        font-size: 20px;
+    }
+    #restaurants-list li a {
+        font-size: 30px;
+    }
 }
