@@ -2,7 +2,7 @@
 /* for phone */ 
 @media (max-width: 599px) {
     .filter-options {
-        height: 80px;
+        height: 120px;
     }
     .filter-options h2 {
         padding-top: 10px;
@@ -10,9 +10,9 @@
     }
     .filter-options select {
         font-size: 10pt;
-        margin-left: 20px;
         margin-top: 5px;
-        width: 150px;
+        width: 90%;
+        margin-left: 5vw;
     }
     #restaurants-list {
         padding: 0px 15px 60px;
@@ -23,4 +23,14 @@
     #restaurants-list li a {
         margin-top: 15px;
     }
+}
+
+/* for tablet portrait view */
+@media (max-width: 900px) {
+
+}
+
+/* for desktop */
+@media (max-width: 1200px) {
+    
 }
