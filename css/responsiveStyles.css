@@ -114,26 +114,35 @@
     .filter-section {
         width: 100%;
     }
+    nav h1 a {
+        font-size: 60px;
+    }
     .filter-options h2 {
-        font-size: 35px;
+        font-size: 45px;
         float: left;
     }
     .filter-options select {
-        width: 30vw;
-        height: 5vw;
-        padding: 0px 20px;
+        font-size: 25px;
+        margin-top: 30px;
+        width: 70%;
+        margin-left: 5vw;
+        height: 10vw;
     }
     .filter-options {
-        height: 90px;
+        height: 100%;
         padding-top: 20px;
     }
     #restaurants-list li h1 {
-        font-size: 48px;
+        font-size: 32px;
     }
     #restaurants-list p {
         font-size: 20px;
     }
     #restaurants-list li a {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    #restaurants-list li{
+        width: 40%;
+        display: inline-block;
     }
 }
