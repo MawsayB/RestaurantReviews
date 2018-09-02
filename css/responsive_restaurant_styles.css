@@ -6,10 +6,13 @@
 /* for phone */ 
 @media (max-width: 599px) {
     #reviews-container {
-        width: 50%;
+        width: 599px;
+        display: flex;
+        flex-grow: 1;
     }
     nav h1 a {
         font-size: 28px;
+        margin-left: -70px;
     }
     nav h1 {
         padding-top: 3vw;
@@ -19,11 +22,24 @@
         font-weight: bold;
     }
     #restaurant-img {
-        width: 80%;
+        width: 90%;
     }
     #restaurant-container {
-        width: 100%;
-        flex-wrap: wrap;
+        width: 70%;
+        margin-left: 20px;
+    }
+    .inside #map-container {
+        position: absolute;
+        width: 20%;
+        height: 200px;
+    }
+    #reviews-list li {
+        width: 70%;
+        margin-left: 20px;
+    }
+    #reviews-container h2 {
+        font-size: 14pt;
+        font-weight: bold;
     }
 }
 
@@ -38,4 +54,8 @@
     nav h1 {
         padding-top: 3vw;
     }
+}
+
+/* for desktop */
+@media (min-width: 1200px) {
 }
