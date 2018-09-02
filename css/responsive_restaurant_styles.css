@@ -58,4 +58,19 @@
 
 /* for desktop */
 @media (min-width: 1200px) {
+    #restaurant-name {
+        font-weight: bold;
+    }
+    #reviews-container h2 {
+        font-weight: bold;
+    }
+    #breadcrumb {
+        margin: 0;
+    }
+    nav h1 a {
+        font-size: 60px;
+    }
+    nav h1 {
+        margin-left: -110px;
+    }
 }
