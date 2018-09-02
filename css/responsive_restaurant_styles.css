@@ -1,0 +1,41 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* for phone */ 
+@media (max-width: 599px) {
+    #reviews-container {
+        width: 50%;
+    }
+    nav h1 a {
+        font-size: 28px;
+    }
+    nav h1 {
+        padding-top: 3vw;
+    }
+    #restaurant-name {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+    #restaurant-img {
+        width: 80%;
+    }
+    #restaurant-container {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+/* for tablet landscape view */
+@media (min-width: 900px) and (max-width: 1199px){
+    #reviews-list li {
+        width: 77%;
+    }
+    nav h1 a {
+        font-size: 28px;
+    }
+    nav h1 {
+        padding-top: 3vw;
+    }
+}
