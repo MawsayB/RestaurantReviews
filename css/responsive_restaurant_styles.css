@@ -49,10 +49,11 @@
         width: 77%;
     }
     nav h1 a {
-        font-size: 28px;
+        font-size: 48px;
     }
     nav h1 {
-        padding-top: 3vw;
+        padding-top: 1vw;
+        margin-left: -110px;
     }
 }
 
