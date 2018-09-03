@@ -13,10 +13,14 @@
         width: 200%;
     }
     .filter-section {
-        width: 170%;
+        width: 230%;
+    }
+    #map {
+        width: 120%;
     }
     nav h1 a {
-        font-size: 20px;
+        font-size: 30px;
+        margin-left: 140px;
     }
     nav h1 {
         padding-top: 3vw;
@@ -36,7 +40,8 @@
         margin-left: 3vw;
     }
     #restaurants-list li {
-        width: 65%;  
+        width: 100%;  
+        margin-left: -5px;
     }
     #restaurants-list li a {
         margin-top: 15px;
@@ -60,14 +65,18 @@
         width: 100%; 
     }
     .map-section {
-        width: 75%;
-    }
-    .filter-section {
         width: 50%;
     }
+    .filter-section {
+        width: 30%;
+    }
     #restaurants-list li{
-        width: 40%;
+        width: 45%;
         display: inline-block;
+    }
+    #restaurants-list {
+        margin-left: 10px;
+        margin-right: 50px;
     }
     nav h1 a {
         font-size: 40px;
@@ -83,12 +92,12 @@
     .filter-options h2 {
         padding-top: 4vw;
         font-size: 40px;
-        margin-left: 5px;
+        margin-left: -5px;
     }
     .filter-options select {
         font-size: 25px;
         margin-top: 30px;
-        width: 70%;
+        width: 72%;
         margin-left: 5vw;
         height: 13vw;
     }
@@ -115,12 +124,15 @@
     .filter-section {
         width: 100%;
     }
+    nav h1 {
+        margin-left: -300px;
+    }
     nav h1 a {
         font-size: 60px;
+        margin-left: 50px;
     }
     .filter-options h2 {
-        font-size: 45px;
-        float: left;
+        font-size: 40px;
     }
     .filter-options select {
         font-size: 25px;
@@ -133,6 +145,11 @@
         height: 100%;
         padding-top: 20px;
     }
+    #restaurant-list {
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
     #restaurants-list li h1 {
         font-size: 32px;
     }
@@ -143,7 +160,7 @@
         font-size: 20px;
     }
     #restaurants-list li{
-        width: 40%;
+        width: 45%;
         display: inline-block;
     }
 }
