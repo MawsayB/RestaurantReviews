@@ -129,7 +129,7 @@
     }
     nav h1 a {
         font-size: 60px;
-        margin-left: 50px;
+        margin-left: 240px;
     }
     .filter-options h2 {
         font-size: 40px;
@@ -159,7 +159,7 @@
     #restaurants-list li a {
         font-size: 20px;
     }
-    #restaurants-list li{
+    #restaurants-list li {
         width: 45%;
         display: inline-block;
     }
