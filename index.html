@@ -15,7 +15,7 @@
 <body>
   <header>
     <nav>
-      <h1 id="reviews"><a href="/">Restaurant Reviews</a></h1>
+      <h1 id="reviews"><a href="/" tabindex="1">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -34,17 +34,17 @@
 
           <div class="filter-options box filter-section">
             <h2>Filter Results</h2>
-            <select id="neighborhoods-select" name="neighborhoods" aria-label="select neighborhoods" onchange="updateRestaurants()">
+            <select tabindex="2" id="neighborhoods-select" name="neighborhoods" aria-label="select neighborhoods" onchange="updateRestaurants()">
               <option value="all">All Neighborhoods</option>
             </select>
-            <select id="cuisines-select" name="cuisines" aria-label="select cuisines" onchange="updateRestaurants()">
+            <select tabindex="3" id="cuisines-select" name="cuisines" aria-label="select cuisines" onchange="updateRestaurants()">
               <option value="all">All Cuisines</option>
             </select>
           </div>
       </div>
 
       <div id="restaurant-container list-section">
-        <ul id="restaurants-list"></ul>
+        <ul tabindex="4" id="restaurants-list"></ul>
       </div>
       </section>
 
