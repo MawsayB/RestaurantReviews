@@ -17,7 +17,7 @@ class DBHelper {
    */
   static fetchRestaurants(callback) {
     let xhr = new XMLHttpRequest();
-    fetch(DBHelper.DATABASE_URL);
+    xhr.open('GET', DBHelper.DATABASE_URL);
     xhr.onload = () => {
       if (xhr.status === 200) { // Got a success response from server!
         const json = JSON.parse(xhr.responseText);
