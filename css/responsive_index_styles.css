@@ -18,13 +18,16 @@
     #map {
         width: 120%;
     }
+    nav {
+        width: 190%;
+      }
     nav h1 a {
         font-size: 30px;
         margin-left: 140px;
     }
     nav h1 {
-        padding-top: 3vw;
         margin-left: -140px;
+        padding-top: 12px;
     }
     .filter-options {
         height: 120px;
@@ -36,12 +39,12 @@
     .filter-options select {
         font-size: 10pt;
         margin-top: 5px;
-        width: 90%;
-        margin-left: 3vw;
+        width: 70%;
+        margin-left: 45px;
     }
     #restaurants-list li {
         width: 100%;  
-        margin-left: -5px;
+        margin-left: 115px;
     }
     #restaurants-list li a {
         margin-top: 15px;
