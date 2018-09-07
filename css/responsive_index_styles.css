@@ -13,13 +13,13 @@
         width: 200%;
     }
     .filter-section {
-        width: 230%;
+        width: 250%;
     }
     #map {
         width: 120%;
     }
     nav {
-        width: 190%;
+        width: 240%;
       }
     nav h1 a {
         font-size: 30px;
@@ -39,12 +39,12 @@
     .filter-options select {
         font-size: 10pt;
         margin-top: 5px;
-        width: 70%;
+        width: 85%;
         margin-left: 45px;
     }
     #restaurants-list li {
-        width: 100%;  
-        margin-left: 115px;
+        width: 235%;  
+        margin-left: 25px;
     }
     #restaurants-list li a {
         margin-top: 15px;
