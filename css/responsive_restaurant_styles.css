@@ -25,13 +25,18 @@
         width: 90%;
     }
     #restaurant-container {
-        width: 70%;
+        width: 190%;
         margin-left: 20px;
     }
     .inside #map-container {
-        position: absolute;
-        width: 20%;
+        width: 50%;
         height: 200px;
+        position: absolute;
+        margin-top: 600px;
+        margin-right: -175px;
+    }
+    .inside #map {
+        width: 200%;
     }
     #reviews-list li {
         width: 70%;
@@ -40,6 +45,9 @@
     #reviews-container h2 {
         font-size: 14pt;
         font-weight: bold;
+    }
+    #breadcrumb {
+        width: calc(50% - 135px);
     }
 }
 
@@ -50,10 +58,21 @@
     }
     nav h1 a {
         font-size: 48px;
+        margin-left: 70px;
     }
     nav h1 {
         padding-top: 1vw;
         margin-left: -110px;
+    }
+    #breadcrumb {
+        width: 30%;
+    }
+    #breadcrumb {
+        margin: 0;
+        height: 16px;
+    }
+    #restaurant-name {
+        font-size: 16pt;
     }
 }
 
