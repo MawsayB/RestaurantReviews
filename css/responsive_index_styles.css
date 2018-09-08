@@ -61,7 +61,7 @@
 }
 
 /* for tablet landscape view */
-@media (min-width: 900px) and (max-width: 1199px){
+@media (min-width: 750px) and (max-width: 1199px){
     .top-box {
         display: flex;
         flex-direction: row;  
@@ -78,8 +78,7 @@
         display: inline-block;
     }
     #restaurants-list {
-        margin-left: 10px;
-        margin-right: 50px;
+        margin-left: 70px;
     }
     nav h1 a {
         font-size: 40px;
@@ -100,7 +99,7 @@
     .filter-options select {
         font-size: 25px;
         margin-top: 30px;
-        width: 72%;
+        width: 83%;
         margin-left: 5vw;
         height: 13vw;
     }
@@ -111,6 +110,10 @@
     #restaurants-list .restaurant-img {
         width: 40%;
         height: 40%;
+    }
+    #restaurants-list li {
+        width: 40%;
+        display: inline-block;
     }
 }
 
