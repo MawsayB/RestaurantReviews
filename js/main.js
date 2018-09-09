@@ -223,3 +223,16 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+
+// finds all keys different from current version and cleans them
+self.addEventListener('activate', function (event) {
+  event.waitUntil(
+      caches.keys().then(function(keys){
+          return Promise.all(keys.map(function(key, i){
+              if(key !== CACHE_VERSION){
+                  return caches.delete(keys[i]);
+              }
+          }))
+      })
+  )
+});
