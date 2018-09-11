@@ -9,6 +9,7 @@
         width: 599px;
         display: flex;
         flex-grow: 1;
+        padding: 105px 40px 30px;
     }
     nav h1 a {
         font-size: 28px;
@@ -52,6 +53,9 @@
     }
     #breadcrumb {
         width: calc(50% - 135px);
+    }
+    .inside #footer {
+        width: 190%;
     }
 }
 

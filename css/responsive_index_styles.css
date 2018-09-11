@@ -1,8 +1,3 @@
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .box {
     width: 100%;
 }
@@ -10,23 +5,22 @@
 /* for phone */ 
 @media (max-width: 599px) {
     .map-section {
-        width: 200%;
+        width: 100%;
     }
     .filter-section {
-        width: 250%;
+        width: 100%;
     }
     #map {
-        width: 66%;
+        width: 100%;
     }
     nav {
-        width: 240%;
+        width: 100%;
       }
     nav h1 a {
         font-size: 10px;
-        margin-right: 295px;
+        padding-left: 4px;
     }
     nav h1 {
-        margin-left: -140px;
         padding-top: 12px;
     }
     .filter-options {
@@ -40,7 +34,8 @@
     .filter-options select {
         font-size: 10pt;
         margin-top: 5px;
-        width: 50%;
+        width: 95%;
+        display: block;
         margin-left: 8px;
     }
     #restaurants-list li { 
@@ -49,7 +44,7 @@
     #restaurants-list li a {
         margin-top: 15px;
     }
-    #restaurants-list li h1 {
+    #restaurants-list li h2 {
         font-size: 25px;
     }
     #restaurant-container {
@@ -154,11 +149,12 @@
         height: 10vw;
     }
     .filter-options {
-        height: 100%;
+        height: 95%;
         padding-top: 20px;
     }
     #restaurants-list {
         margin-right: -130px;
+        margin-top: 10px;
     }
     #restaurants-list li h1 {
         font-size: 16px;
